@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #6aa84f;
+    --secondary-color: #3ccf4e;
+    --tertiary-color: #f45050;
+    --white-color: #ffffff;
+    --white-color-2: #f8f8f8;
+    --white-color-3: #e6f4f0;
+    --title-color: #20262e;
+    --paragraph-color: #2c3333;
+    --hints-color: #767a7a;
+    --border-color: #e9e9ea;
+  }
+  ul.pagination {
+    display: inline-flex;
+  }
+  .page-item .page-link {
+    color: #6aa84f !important;
+  }
+  .active>.page-link,
+  .page-link.active {
+    background-color: #6aa84f !important;
+    border-color: #6aa84f !important;
+    color: white;
+  }
+  .page-item.active .page-link {
+    color: white !important;
+  }
+  .row.school-committe-group {
+    row-gap: 24px;
+  }
