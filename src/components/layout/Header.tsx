@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function Header() {
@@ -21,13 +22,13 @@ export default function Header() {
                                         <nav className="navigation">
                                             <ul className="header-menu-list">
                                                 <li className="active">
-                                                    <a href="index.html">মূলপাতা</a>
+                                                    <Link href="/">মূলপাতা</Link>
                                                 </li>
                                                 <li>
                                                     <a href="#">পরিচিতি<i className="fi-rr-angle-small-down"></i></a>
                                                     <ul className="sub-menu">
                                                         <li>
-                                                            <a href="about.html">প্রতিষ্ঠান পরিচিতি</a>
+                                                            <Link href="/about-us" passHref>প্রতিষ্ঠান পরিচিতি</Link>
                                                         </li>
                                                         <li>
                                                             <a href="info.html">বিদ্যালয়ের তথ্যাদি</a>

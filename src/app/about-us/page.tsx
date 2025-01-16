@@ -1,6 +1,9 @@
+import AboutMain from "src/data/Frontend/aboutUs/AboutMain";
 
 export default function Page() {
   return (
-   <div>this is about us</div>
-  )
+       <>
+          <AboutMain/>
+       </>
+     );
 }
